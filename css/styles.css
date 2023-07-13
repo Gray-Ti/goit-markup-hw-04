@@ -647,7 +647,7 @@ img {
 /* -------------------MODAL------------------- */
 
 .backdrop {
-  width: 100%;
+  width: 408px;
   height: 100%;
   position: fixed;
   top: 0;
