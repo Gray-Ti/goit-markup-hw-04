@@ -63,7 +63,7 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn">Order Service</button>
+          <button type="data-modal-open" class="hero-btn">Order Service</button>
         </div>
       </section>
 
@@ -73,7 +73,7 @@
           <ul class="pr-list list">
             <li class="pr-item">
               <div class="pr-block">
-                <svg class="pr-icons">
+                <svg class="pr-icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
@@ -85,7 +85,7 @@
             </li>
             <li class="pr-item">
               <div class="pr-block">
-                <svg class="pr-icons">
+                <svg class="pr-icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
@@ -97,7 +97,7 @@
             </li>
             <li class="pr-item">
               <div class="pr-block">
-                <svg class="pr-icons">
+                <svg class="pr-icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
@@ -109,7 +109,7 @@
             </li>
             <li class="pr-item">
               <div class="pr-block">
-                <svg class="pr-icons">
+                <svg class="pr-icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
@@ -164,10 +164,8 @@
               <div class="team-name-item">
                 <h3 class="specialists-team">Mark Guerrero</h3>
                 <p class="position-team">Product Designer</p>
-              </div>
-              <div class="team-block">
                 <ul class="team-link-list list">
-                  <li class="team-link-item">
+                  <li class="team-link-item" width="40" height="40">
                     <a
                       class="team-link"
                       href=""
@@ -227,10 +225,9 @@
               <div class="team-name-item">
                 <h3 class="specialists-team">Tom Ford</h3>
                 <p class="position-team">Frontend Developer</p>
-              </div>
-              <div class="team-block">
+
                 <ul class="team-link-list list">
-                  <li class="team-link-item">
+                  <li class="team-link-item" width="40" height="40">
                     <a
                       class="team-link"
                       href=""
@@ -290,10 +287,8 @@
               <div class="team-name-item">
                 <h3 class="specialists-team">Camila Garcia</h3>
                 <p class="position-team">Marketing</p>
-              </div>
-              <div class="team-block">
                 <ul class="team-link-list list">
-                  <li class="team-link-item">
+                  <li class="team-link-item" width="40" height="40">
                     <a
                       class="team-link"
                       href=""
@@ -353,10 +348,8 @@
               <div class="team-name-item">
                 <h3 class="specialists-team">Daniel Wilson</h3>
                 <p class="position-team">UI Designer</p>
-              </div>
-              <div class="team-block">
                 <ul class="team-link-list list">
-                  <li class="team-link-item">
+                  <li class="team-link-item" width="40" height="40">
                     <a
                       class="team-link"
                       href=""
@@ -492,45 +485,50 @@
 
     <footer class="footer">
       <div class="container footer-container">
-        <a class="footer-logo link" href="./index.html"
-          >Web
-          <span class="footer-logo-studio">Studio</span>
-        </a>
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
-      <div class="foot-social container">
-        <p class="textfoot">Social media</p>
-        <ul class="foot-list list">
-          <li class="social-item">
-            <a href target="blank" class="social-icons"
-              ><svg class="icons-footer" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram-2"></use></svg
-            ></a>
-          </li>
-          <li class="social-item">
-            <a href target="blank" class="social-icons link"
-              ><svg class="icons-footer" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter-1"></use></svg
-            ></a>
-          </li>
-          <li class="social-item">
-            <a href target="blank" class="social-icons link"
-              ><svg class="icons-footer" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook-1"></use></svg
-            ></a>
-          </li>
-          <li class="social-item">
-            <a href target="blank" class="social-icons link">
-              ><svg class="icons-footer" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin-1"></use></svg
-            ></a>
-          </li>
-        </ul>
+        <div class="container footer-logo-par">
+          <a class="footer-logo link" href="./index.html"
+            >Web
+            <span class="footer-logo-studio">Studio</span>
+          </a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="foot-social container">
+          <p class="textfoot">Social media</p>
+          <ul class="foot-list list">
+            <li class="social-item">
+              <a href target="blank" class="social-icons"
+                ><svg class="icons-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use></svg
+              ></a>
+            </li>
+            <li class="social-item">
+              <a href target="blank" class="social-icons link"
+                ><svg class="icons-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use></svg
+              ></a>
+            </li>
+            <li class="social-item">
+              <a href target="blank" class="social-icons link"
+                ><svg class="icons-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use></svg
+              ></a>
+            </li>
+            <li class="social-item">
+              <a href target="blank" class="social-icons link">
+                ><svg class="icons-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
-    <script src="./js/modal.js"></script>
+
+    <div class="script">
+      <script src="./js/modal.js"></script>
+    </div>
   </body>
 </html>
