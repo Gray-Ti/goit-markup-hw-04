@@ -658,7 +658,6 @@ img {
 }
 
 .is-hidden {
-  width: 100%;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
