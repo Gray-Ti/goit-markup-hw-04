@@ -529,13 +529,15 @@
       </div>
     </footer>
 
-    <div class="script is-hidden" data-modal>
-      <button type="button" class="mod-class-btn" data-modal-close>
-        <svg class="modal-icon" width="8" height="8">
-          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-        </svg>
-      </button>
-      <script src="./js/modal.js" class="modal-js"></script>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="mod-close-btn" data-modal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <script src="./js/modal.js"></script>
+      </div>
     </div>
   </body>
 </html>

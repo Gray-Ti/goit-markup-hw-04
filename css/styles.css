@@ -644,7 +644,9 @@ img {
   color: var(--secondary-text-color);
 }
 
-.script {
+/* -------------------MODAL------------------- */
+
+.backdrop {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -661,7 +663,7 @@ img {
   pointer-events: none;
 }
 
-.modal-js {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -675,7 +677,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mod-class-btn {
+.mod-close-btn {
   display: flex;
   align-items: center;
   justify-content: center;
