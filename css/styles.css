@@ -601,9 +601,6 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.app-link:is(:hover, :focus){
-  transform: translateY(0%); 
-}
 
 .port-item:is(:hover, :focus) .over-text {
   transform: translateY(0%);
